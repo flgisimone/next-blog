@@ -19,7 +19,7 @@ const SinglePost = ({data}) => {
             height={400}
             alt={title}></Image>
             <div className={styles.body}>
-              <span>{body.substring(0,50)}...</span>
+              <span>{body.substring(0,80)}...</span>
               <p>Scopri di più...</p>
             </div>
         </Link>
