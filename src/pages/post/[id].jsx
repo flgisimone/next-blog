@@ -5,7 +5,7 @@ import Link from "next/link";
 import { GET } from "@/utils";
 import styles from "./styles.module.scss";
 
-export default function () {
+export default function Post() {
 
   const imgPost = "https://picsum.photos/600/400?"
 

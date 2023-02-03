@@ -11,7 +11,7 @@ const SinglePost = ({data}) => {
   return (
     <div className={styles.SinglePost} key={id}>
         <h2 className={styles.Title}>
-            "{title}"
+            {title}
         </h2 >
         <Link href={`/post/${id}`}>
             <Image src={imgPost + id}
