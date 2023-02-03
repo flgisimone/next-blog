@@ -9,7 +9,7 @@ const PostList = ({postList}) => {
     <div className={styles.PostList}>
       {
         postList.map((post) => (
-          <SinglePost data={post} key={postList.id}/>
+          <SinglePost data={post} key={post.id}/>
           ))
       }
    
