@@ -1,0 +1,31 @@
+.Post{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    img{
+        align-self: center;
+        width: 350px;
+        height: 250px;
+        border-radius: .5rem;
+    }
+
+    .containerTag{
+        align-self: flex-start;
+        font-weight: bold;
+    }
+
+    a{
+        color: black;
+        align-self: flex-end;
+    }
+
+    h5{
+        align-self: flex-start;
+        color: grey;
+        font-weight: 600;
+    }
+}
