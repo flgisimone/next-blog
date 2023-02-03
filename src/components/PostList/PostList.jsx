@@ -3,11 +3,13 @@ import styles from "./PostList.module.scss"
 
 const PostList = ({postList}) => {
 
+  console.log(postList)
+
   return (
     <div className={styles.PostList}>
       {
         postList.map((post) => (
-          <SinglePost data={post} />
+          <SinglePost data={post} key={post.id}/>
           ))
       }
    
